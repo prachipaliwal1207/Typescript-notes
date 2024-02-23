@@ -20,7 +20,7 @@ console.log(a); // Output: 10
 - **unknown:** Data types is unknown.
 
 **_ 'any' and 'unknown' types_🔍**
-Def: any' allows variables to hold any value, while 'unknown' requires type checking.
+'any' allows variables to hold any value, while 'unknown' requires type checking.
 // Example: 'b' can hold any value
 let b: any = 10;
 b = "String"; // Now 'b' holds a string value
