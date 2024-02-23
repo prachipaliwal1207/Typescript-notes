@@ -19,7 +19,7 @@ console.log(a); // Output: 10
 - **any:** Represents any type, allowing values of any data type.
 - **unknown:** Data types is unknown.
 
-**_ 'any' and 'unknown' types_🔍**
+**_ 'any' and 'unknown' types_🔍** ->
 'any' allows variables to hold any value, while 'unknown' requires type checking.
 // Example: 'b' can hold any value
 let b: any = 10;
