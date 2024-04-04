@@ -1,10 +1,10 @@
                                 ### **_Basic TypeScript Concepts_** 📘
 
-1. **_Printing "Hello World" to the console_** 🖨️
+                              1. **_Printing "Hello World" to the console_** 🖨️
 console.log('Hello world');
 
 
-2. ###  **_Variables and Types_** 📝
+                              2. ###  **_Variables and Types_** 📝
 Def : Variables store data values with specified types.
 Example: 'a' is a number storing the value 10
 let a: number = 10;
