@@ -2,6 +2,7 @@
 
 **_Printing "Hello World" to the console_** 🖨️
 console.log('Hello world');
+console.log('<mark>Hello world</mark>');
 
 ###  **_Variables and Types_** 📝
 Def : Variables store data values with specified types.
@@ -138,5 +139,4 @@ Def: Intersection types combine multiple types into one.
 type A = { a: number };
 type B = { b: string };
 let obj: A & B = { a: 1, b: "hello" }; // Creating an object that has properties from both types A and B
-
 
