@@ -6,9 +6,9 @@ console.log('Hello world');
 
 
                                          **_Variables and Types_** 📝
-😊 Def : Variables store data values with specified types. (`<br>`)
-Example: 'a' is a number storing the value 10 (`<br>`)
-let a: number = 10; (`<br>`)
+😊 Def : Variables store data values with specified types. <br>
+Example: 'a' is a number storing the value 10 <br>
+let a: number = 10; <br>
 console.log(a); // Output: 10
 
                                          **Basic Types:**
