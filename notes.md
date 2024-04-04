@@ -12,9 +12,9 @@ let a: number = 10;
 console.log(a); // Output: 10
 
                                          **Basic Types:**
-- **number:** Represents numeric values like integers and floats.
-- **string:** Represents textual data.
-- **boolean:** Represents logical values true or false.
+- **number:** Represents numeric values like integers and floats. (`<br>`)
+- **string:** Represents textual data. (`<br>`)
+- **boolean:** Represents logical values true or false. (`<br>`)
 - **null:** Represents a null value.
 - **undefined:** Represents an undefined value.
 - **void:** Represents the absence of any type.
