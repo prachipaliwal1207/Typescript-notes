@@ -2,7 +2,7 @@
 
 **_Printing "Hello World" to the console_** 🖨️
 console.log('Hello world');
-console.log('<mark>Hello world</mark>');
+
 
 ###  **_Variables and Types_** 📝
 Def : Variables store data values with specified types.
