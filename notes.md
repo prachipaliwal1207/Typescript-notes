@@ -1,16 +1,18 @@
-                                ### **_Basic TypeScript Concepts_** 📘
+                                         **_Basic TypeScript Concepts_** 📘
 
-                              1. **_Printing "Hello World" to the console_** 🖨️
+ 
+                              
+                                         **_Printing "Hello World" to the console_** 🖨️
 console.log('Hello world');
 
 
-                              2. ###  **_Variables and Types_** 📝
+                                         **_Variables and Types_** 📝
 Def : Variables store data values with specified types.
 Example: 'a' is a number storing the value 10
 let a: number = 10;
 console.log(a); // Output: 10
 
-3. ### **Basic Types:**
+                                         **Basic Types:**
 - **number:** Represents numeric values like integers and floats.
 - **string:** Represents textual data.
 - **boolean:** Represents logical values true or false.
@@ -20,7 +22,8 @@ console.log(a); // Output: 10
 - **any:** Represents any type, allowing values of any data type.
 - **unknown:** Data types is unknown.
 
-4. Note -> **_ 'any' and 'unknown' types_🔍** ->
+                                         **_Note_** ->
+- **_ 'any' and 'unknown' types_🔍** ->
 'any' allows variables to hold any value, while 'unknown' requires type checking.
 // Example: 'b' can hold any value
 let b: any = 10;
@@ -31,7 +34,7 @@ let c: unknown = 10;
 c = "Prachi";
 console.log(c); // Output: Prachi
 
-5. ### **_Arrays_ 📚**
+                                         **_Arrays_ 📚**
 Def: Arrays store multiple values of the same or different types.
 // Example: Array with mixed types
 let arr = [1, 2, "Prachi", true];
@@ -44,13 +47,13 @@ num.forEach((n) => n.toString()); // Converting each number to string
 let string: string[] = ["Prachi", "Paliwal"];
 string.forEach((n) => n.toLowerCase()); // Converting each string to lowercase
 
-6. ### **_Constants and Arrays_**🛑
+                                         **_Constants and Arrays_**🛑
 Def: Constants hold values that cannot be changed.
 // Example: 'numbers' is a constant array, but its elements can still be modified
 const numbers = [1, 2, 3];
 numbers.push(4);
 
-7. ### **_Tuples_** 📦
+                                         **_Tuples_** 📦
 Def: Tuples are arrays with fixed types and lengths.
 // Example: Tuple with defined types and length
 let foods: [number, string, number, string] = [1, "Papaya", 2, "Graphes"];
@@ -58,7 +61,7 @@ let foods: [number, string, number, string] = [1, "Papaya", 2, "Graphes"];
 // Example2: Array with union type
 let foodss: (number | string)[] = [1, 2, 3, "Apple", "Mango", 4];
 
-8. ### **_Enum_** 🏷️
+                                         **_Enum_** 🏷️
 Def: Enums organize related values.
 // Example: Enum representing different shirt sizes
 enum ShirtSize {
@@ -72,7 +75,7 @@ enum ShirtSize {
 let size: ShirtSize = ShirtSize.Medium;
 console.log(size); // Output: Medium
 
-9. ### **_Functions_** 🎵
+                                         **_Functions_** 🎵
 Def: Functions perform specific tasks.
 // Example: Function accepting any type of argument
 function myFun(text: any) {
@@ -96,7 +99,7 @@ function myFun2(text: string): number {
 }
 myFun2("Hello"); // Calling function with string argument
 
-10. ### **_Objects_** 🧑‍🤝‍🧑
+                                         **_Objects_** 🧑‍🤝‍🧑
 Def: Objects have properties and methods.
 // Example: Defining a type for a Friend object
 type Friend = {
@@ -128,13 +131,13 @@ let foodType: FoodType = {
 }
 foodType.favorite("Mango"); // Calling the method with an argument
 
-11. ### **_Union Types_** 🔄
+                                         **_Union Types_** 🔄
 Def:  In TypeScript, union types allow variables to hold values of multiple specified types.
 let value: number | string; // Declaring a variable that can hold either a number or a string
 value = 10; // Valid
 value = "Hello"; // Also valid
 
-12. ### **_Intersection Types_** ⚛️
+                                         **_Intersection Types_** ⚛️
 Def: Intersection types combine multiple types into one.
 type A = { a: number };
 type B = { b: string };
