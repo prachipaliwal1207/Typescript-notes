@@ -6,15 +6,15 @@ console.log('Hello world');
 
 
                                          **_Variables and Types_** 📝
-😊 Def : Variables store data values with specified types.
-Example: 'a' is a number storing the value 10
-let a: number = 10;
+😊 Def : Variables store data values with specified types. (`<br>`)
+Example: 'a' is a number storing the value 10 (`<br>`)
+let a: number = 10; (`<br>`)
 console.log(a); // Output: 10
 
                                          **Basic Types:**
-- **number:** Represents numeric values like integers and floats. (`<br>`)
-- **string:** Represents textual data. (`<br>`)
-- **boolean:** Represents logical values true or false. (`<br>`)
+- **number:** Represents numeric values like integers and floats.
+- **string:** Represents textual data. 
+- **boolean:** Represents logical values true or false. 
 - **null:** Represents a null value.
 - **undefined:** Represents an undefined value.
 - **void:** Represents the absence of any type.
