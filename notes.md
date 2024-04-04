@@ -1,8 +1,7 @@
                                          **_Basic TypeScript Concepts_** 📘
 
  
-                              
-                                         **_Printing "Hello World" to the console_** 🖨️
+**_Printing "Hello World" to the console_** 🖨️
 console.log('Hello world');
 
 
@@ -34,7 +33,7 @@ let c: unknown = 10;
 c = "Prachi";
 console.log(c); // Output: Prachi
 
-                                         **_Arrays_ 📚**
+                                         **_Arrays_** 📚
 Def: Arrays store multiple values of the same or different types.
 // Example: Array with mixed types
 let arr = [1, 2, "Prachi", true];
@@ -47,7 +46,7 @@ num.forEach((n) => n.toString()); // Converting each number to string
 let string: string[] = ["Prachi", "Paliwal"];
 string.forEach((n) => n.toLowerCase()); // Converting each string to lowercase
 
-                                         **_Constants and Arrays_**🛑
+                                         **_Constants and Arrays_** 🛑
 Def: Constants hold values that cannot be changed.
 // Example: 'numbers' is a constant array, but its elements can still be modified
 const numbers = [1, 2, 3];
@@ -137,7 +136,7 @@ let value: number | string; // Declaring a variable that can hold either a numbe
 value = 10; // Valid
 value = "Hello"; // Also valid
 
-                                         **_Intersection Types_** ⚛️
+                                         **_Intersection Types_** 📝
 Def: Intersection types combine multiple types into one.
 type A = { a: number };
 type B = { b: string };
